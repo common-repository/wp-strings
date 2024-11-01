@@ -1,0 +1,16 @@
+
+
+ul#options {width:600px; background:#fafbe3; padding:20px; border:1px solid #CCC; -moz-border-radius: 15px; border-radius: 15px;}
+ul#options li p.label {width:180px; margin:5px 0;}
+ul#options li p.input {width:300px; margin:2px 0;}
+ul#options li p.delete {width:100px; margin:3px 0 2px 10px;}
+ul#options li p.delete input:hover {cursor:pointer;}
+ul#options li p.input input{ width:300px; }
+ul#options li p { float:left; }
+ul#options li {clear:both; overflow:auto; padding:10px 0; margin:0;}
+ul#options li + li {border-top:1px solid #CCC;}
+
+.wp-strings{float:left;}
+.wp-strings + .wp-strings { float:right; }
+
+.clearfix{clear:both;}
